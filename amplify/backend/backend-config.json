@@ -1,0 +1,36 @@
+{
+  "auth": {
+    "testcameraa68b7e89": {
+      "customAuth": false,
+      "dependsOn": [],
+      "frontendAuthConfig": {
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyCharacters": [],
+          "passwordPolicyMinLength": 8
+        },
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "socialProviders": [],
+        "usernameAttributes": [],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerPlugin": "awscloudformation",
+      "service": "Cognito"
+    }
+  },
+  "predictions": {
+    "identifyText4d315636": {
+      "dependsOn": [],
+      "identifyType": "identifyText",
+      "providerPlugin": "awscloudformation",
+      "service": "RekognitionAndTextract"
+    }
+  }
+}

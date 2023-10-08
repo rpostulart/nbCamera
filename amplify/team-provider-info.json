@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-testcamera-dev-204640-authRole",
+      "UnauthRoleArn": "arn:aws:iam::415588941872:role/amplify-testcamera-dev-204640-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::415588941872:role/amplify-testcamera-dev-204640-authRole",
+      "Region": "ap-southeast-1",
+      "DeploymentBucketName": "amplify-testcamera-dev-204640-deployment",
+      "UnauthRoleName": "amplify-testcamera-dev-204640-unauthRole",
+      "StackName": "amplify-testcamera-dev-204640",
+      "StackId": "arn:aws:cloudformation:ap-southeast-1:415588941872:stack/amplify-testcamera-dev-204640/0692c720-660b-11ee-aa02-0694c0c931c8",
+      "AmplifyAppId": "d2bnmqckoijgzp"
+    },
+    "categories": {
+      "auth": {
+        "testcameraa68b7e89": {}
+      },
+      "predictions": {
+        "identifyText4d315636": {}
+      }
+    }
+  }
+}
